@@ -1,3 +1,7 @@
+@Grapes( 
+@Grab(group='com.google.guava', module='guava', version='19.0-rc1') 
+)
+
 def simplyTake() {
 	for (def i=0;i<10;i++) {
 		println("took your money")

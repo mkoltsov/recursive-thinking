@@ -6,4 +6,17 @@ def fact(int n) {
 	println(accum)
 }
 
+def fact2(int n) {
+	def accum = 1
+
+	for(def i=1; i<=n;i++){
+		accum*=i
+	}
+
+	println(accum)
+}
+
+
 fact(7)
+
+fact2(7)
